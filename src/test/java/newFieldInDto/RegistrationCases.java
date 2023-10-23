@@ -1,12 +1,13 @@
-package newFieldInDto.dto;
+package newFieldInDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import newFieldInDto.UserFactory;
+import newFieldInDto.dto.RegistrationRequestDto;
+import newFieldInDto.dto.RegistrationResponseDto;
 
 @Getter
 @AllArgsConstructor
-public enum Cases {
+public enum RegistrationCases {
     SUCCESS("Registration successful"),
     CONFLICT("User already exists"),
     NO_EMAIL("Email is required"),
