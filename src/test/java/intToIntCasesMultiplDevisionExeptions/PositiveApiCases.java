@@ -1,11 +1,11 @@
-package intToIntCasesMultiplDevision;
+package intToIntCasesMultiplDevisionExeptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum PositiveTestCases {
+public enum PositiveApiCases {
     BETWEEN_1_AND_10_MIN("Range from 1 to 10 minimum", null, 1, 2),
     BETWEEN_1_AND_10_NOM("Range from 1 to 10 nominal", null, 5, 10),
     BETWEEN_1_AND_10_MAX("Range from 1 to 10 maximum", null, 10, 20),

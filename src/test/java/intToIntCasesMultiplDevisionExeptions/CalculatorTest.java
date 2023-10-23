@@ -1,4 +1,4 @@
-package intToIntCasesMultiplDevision;
+package intToIntCasesMultiplDevisionExeptions;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,17 +10,17 @@ public class CalculatorTest {
     private final CalculatorIfElse calculator = new CalculatorIfElse();
 
     @ParameterizedTest
-    @EnumSource(NegativeTestCases.class)
+    @EnumSource(NegativeApiCases.class)
     @DisplayName("Negative tests")
-    void negativeTest(NegativeTestCases testCase) {
+    void negativeTest(NegativeApiCases testCase) {
         RuntimeException exception = assertThrows(RuntimeException.class, () -> calculator.businessProcess(testCase.getInput()));
         assertEquals(testCase.getExceptionMessage(), exception.getMessage());
     }
 
     @ParameterizedTest
-    @EnumSource(PositiveTestCases.class)
+    @EnumSource(PositiveApiCases.class)
     @DisplayName("Positive tests")
-    void positiveTest(PositiveTestCases testCase) {
+    void positiveTest(PositiveApiCases testCase) {
         int result = calculator.businessProcess(testCase.getInput());
         assertEquals(testCase.getExpectedOutput(), result);
     }

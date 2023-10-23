@@ -1,4 +1,4 @@
-package intToIntCasesMultiplDevision;
+package intToIntCasesMultiplDevisionExeptions;
 
 public class CalculatorIfElse {
     public int businessProcess(int a) {
