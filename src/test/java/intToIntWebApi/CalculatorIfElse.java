@@ -1,4 +1,4 @@
-package intToIntCasesMultiplDevisionExeptions;
+package intToIntWebApi;
 
 public class CalculatorIfElse {
     public int businessProcess(int a) {

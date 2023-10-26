@@ -1,10 +1,9 @@
-package intToIntCasesMultiplDevisionExeptions;
+package intToIntWebApi;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public enum WebCases {
-    // web form that  takes integer value and returns integer value with the button
 
     IS_BUTTON_ENABLED(),
     IS_BUTTON_DISABLED(),
@@ -21,6 +20,8 @@ public enum WebCases {
     INPUT_LARGE_NUMBER(),
     IS_ERROR_MESSAGE_DISPLAYED(),
     IS_ERROR_MESSAGE_RELATIVE_TO_THE_CASE(),
-    IS_FIELD_BORDER_RED_WHEN_ERROR();
+    IS_FIELD_BORDER_RED_WHEN_ERROR(),
+    PASTE_FROM_THE_CLIPBOARD_RELEVANT_TYPE(),
+    PASTE_FROM_THE_CLIPBOARD_IRRELEVANT_TYPE()
 
-    }
+}

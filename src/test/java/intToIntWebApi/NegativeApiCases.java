@@ -1,4 +1,4 @@
-package intToIntCasesMultiplDevisionExeptions;
+package intToIntWebApi;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
