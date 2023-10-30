@@ -2,7 +2,8 @@ package oop.designPatterns;
 
 public class SRPvsOCP {
 //  Single Responsibility Principle (SRP) vs Open/Closed Principle
-
+    //SRP
+//    Concept: A class should have only one reason to change, meaning it should have only one responsibility.
 //  SRP: A class should have only one reason to change.
 // This class has one job: to calculate the area of a rectangle.
 public class RectangleAreaCalculator {
@@ -11,8 +12,8 @@ public class RectangleAreaCalculator {
     }
 }
 
-// OCP: Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
-// This class is open for extension but closed for modification.
+// OCP: Software entities (classes, modules, functions, etc.)
+//Concept: Software entities should be open for extension but closed for modification.
 public abstract class Shape {
     public abstract double area();
 }

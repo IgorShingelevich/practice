@@ -64,7 +64,10 @@ public class ISPvsAbstraction {
 
 ISP Approach: We define three small interfaces (Flyable, Eater, NoiseMaker),
  each responsible for a very specific behavior.
-  The SeagullISP class then implements these interfaces. This way, if a client class is only interested in the flying aspect of a Seagull, it can just depend on the Flyable interface.
+  The SeagullISP class then implements these interfaces.
+  This way, if a client class is only interested in the flying aspect of a Seagull,
+   it can just depend on the Flyable interface.
+    interfaces are small and focused.  not having to implement unrelated methods.
 
 Abstraction Approach: We define a single, more generalized Animal interface that encompasses all the methods related to animals.
 The SeagullAbstract class implements this larger interface.

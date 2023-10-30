@@ -1,6 +1,6 @@
-package newFieldInDto;
+package alg.newFieldInDto;
 
-import newFieldInDto.dto.RegistrationResponseDto;
+import alg.newFieldInDto.dto.RegistrationResponseDto;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
 

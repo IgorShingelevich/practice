@@ -1,4 +1,4 @@
-package newFieldInDto.dto;
+package alg.newFieldInDto.dto;
 
 import lombok.Builder;
 import lombok.Data;

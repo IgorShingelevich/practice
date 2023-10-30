@@ -1,4 +1,4 @@
-package intToIntWebApi;
+package alg.intToIntWebApi;
 
 public class CalculatorIfElse {
     public int businessProcess(int a) {

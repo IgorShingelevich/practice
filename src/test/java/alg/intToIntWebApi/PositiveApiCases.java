@@ -1,4 +1,4 @@
-package intToIntWebApi;
+package alg.intToIntWebApi;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

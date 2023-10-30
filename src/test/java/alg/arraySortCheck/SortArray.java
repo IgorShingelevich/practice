@@ -1,4 +1,4 @@
-package arraySortCheck;
+package alg.arraySortCheck;
 
 import java.util.ArrayList;
 import java.util.Arrays;

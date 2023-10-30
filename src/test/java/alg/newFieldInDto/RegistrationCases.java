@@ -1,9 +1,9 @@
-package newFieldInDto;
+package alg.newFieldInDto;
 
+import alg.newFieldInDto.dto.RegistrationRequestDto;
+import alg.newFieldInDto.dto.RegistrationResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import newFieldInDto.dto.RegistrationRequestDto;
-import newFieldInDto.dto.RegistrationResponseDto;
 
 @Getter
 @AllArgsConstructor

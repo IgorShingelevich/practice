@@ -1,9 +1,9 @@
-package arraySortCheck;
+package alg.arraySortCheck;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
-import arraySortCheck.provider.Cases;
+import alg.arraySortCheck.provider.Cases;
 
 public class SortArrayTest {
 

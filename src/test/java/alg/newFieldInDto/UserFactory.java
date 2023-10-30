@@ -1,7 +1,7 @@
-package newFieldInDto;
+package alg.newFieldInDto;
 
+import alg.newFieldInDto.dto.RegistrationRequestDto;
 import com.github.javafaker.Faker;
-import newFieldInDto.dto.RegistrationRequestDto;
 
 public class UserFactory {
 

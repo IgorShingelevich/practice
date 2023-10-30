@@ -1,4 +1,4 @@
-package arraySortCheck.provider;
+package alg.arraySortCheck.provider;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
