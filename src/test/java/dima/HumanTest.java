@@ -7,8 +7,10 @@ public class HumanTest {
     @Test
     @DisplayName("Inheritance test")
     public void inheritanceTest(){
-        Grandfather dedWasia = new Grandfather(78, 170, 80, "uzbek", "Wasia");
-        Grandfather dedOleg = new Grandfather(88,150, 90, "usa", "Oleg");
-        Grandmother babkaDusia = new Grandmother(99,144,34,"rus", "Dusia")
+        Grandfather dedWasia = new Grandfather(78, 170, 80, "uzbek", "Wasia",2000);
+        Grandfather dedOleg = new Grandfather(88,150, 90, "usa", "Oleg",1000);
+        Grandmother babkaDusia = new Grandmother(99,144,34,"rus", "Dusia");
+        int totalSalary = dedWasia.salary + dedOleg.salary;
+        System.out.println("salary " + totalSalary);
     }
 }
