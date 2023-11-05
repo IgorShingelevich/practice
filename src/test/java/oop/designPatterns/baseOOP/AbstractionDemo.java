@@ -6,7 +6,7 @@ abstract class AbstractShape {  // Abstract class
     abstract void draw();
 }
 
-class Circle extends AbstractShape {  // Derived class
+  class Oval extends AbstractShape {  // Derived class
     // Providing implementation for the abstract method
     @Override
     void draw() {
@@ -18,7 +18,7 @@ public class AbstractionDemo {
     // Main method to demonstrate abstraction
     public static void main(String[] args) {
         // Step 1: Create an object of a subclass
-        AbstractShape shape = new Circle();
+        AbstractShape shape = new Oval();
         // Step 2: Call the implemented method
         shape.draw();  // Output: Drawing a circle
     }
