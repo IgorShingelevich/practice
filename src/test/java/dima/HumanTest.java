@@ -9,8 +9,11 @@ public class HumanTest {
     public void inheritanceTest(){
         Grandfather dedWasia = new Grandfather(78, 170, 80, "uzbek", "Wasia",2000);
         Grandfather dedOleg = new Grandfather(88,150, 90, "usa", "Oleg",1000);
+        Grandfather dedPetr = dedOleg;
         Grandmother babkaDusia = new Grandmother(99,144,34,"rus", "Dusia");
         int totalSalary = dedWasia.salary + dedOleg.salary;
         System.out.println("salary " + totalSalary);
+        dedOleg.introduce();
+        dedOleg.introduce(dedOleg.name, dedOleg.age);
     }
 }
