@@ -1,5 +1,7 @@
 package dima;
 
 public class Grandfather extends Male {
-    Grandfather(super.Human.)
+    public Grandfather(int age, int height, int weight, String nationality, String name) {
+        super(age, height, weight, nationality, name);
+    }
 }
