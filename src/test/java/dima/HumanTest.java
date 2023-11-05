@@ -16,4 +16,5 @@ public class HumanTest {
         dedOleg.introduce();
         dedOleg.introduce(dedOleg.name, dedOleg.age);
     }
+
 }
