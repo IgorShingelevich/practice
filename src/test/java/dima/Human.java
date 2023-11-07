@@ -10,7 +10,7 @@ public class Human {
     String name;
     String introduce(){
 //        System.out.println("Hello");
-         String introduction= "Hello, I'm " + name +"my age is " + age;
+         String introduction= "Hello, I'm " + name +"my age is " + age + ", my weight is " + weight;
 
         return introduction;
 
@@ -23,8 +23,8 @@ public class Human {
 //    public void introduce(String n){
 //        System.out.println("Hello, I'm " + n);
 //    }
-    void introduce(String n, int a){
-        System.out.println("Hello, I'm " + n +"my age is " + a);
+    void introduce(String n, int a, int w){
+        System.out.println("Hello, I'm " + n +"my age is " + a + ", my weight is " + w);
     }
     public Human(int age, int height, int weight, String nationality, String name){
         this.age = age;
@@ -32,5 +32,11 @@ public class Human {
         this.height = height;
         this.weight = weight;
         this.nationality = nationality;
+    }
+
+    @Override
+    // to string name
+    public String toString() {
+        return name;
     }
 }

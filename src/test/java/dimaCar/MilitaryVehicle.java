@@ -1,4 +1,4 @@
-package dimaCar;
-
-public class MilitaryVehicle {
-}
+//package dimaCar;
+//
+//public class MilitaryVehicle {
+//}

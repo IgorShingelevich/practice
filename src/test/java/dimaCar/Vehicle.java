@@ -3,6 +3,8 @@ package dimaCar;
 import java.util.concurrent.SubmissionPublisher;
 
 public class Vehicle {
+
+
     int speed;
     int weight;
     int price;

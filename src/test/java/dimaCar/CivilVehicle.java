@@ -1,4 +1,4 @@
-package dimaCar;
-
-public class CivilVehicle {
-}
+//package dimaCar;
+//
+//public class CivilVehicle {
+//}
