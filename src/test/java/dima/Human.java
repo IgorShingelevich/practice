@@ -8,16 +8,22 @@ public class Human {
     int weight;
     String nationality;
     String name;
-    public void introduce(){
+    String introduce(){
 //        System.out.println("Hello");
-        System.out.println("Hello, I'm " + name +"my age is " + age);
+         String introduction= "Hello, I'm " + name +"my age is " + age;
 
+        return introduction;
+
+    }
+
+    int massIndex(int height, int weight){
+        return height*weight;
     }
 
 //    public void introduce(String n){
 //        System.out.println("Hello, I'm " + n);
 //    }
-    public void introduce(String n, int a){
+    void introduce(String n, int a){
         System.out.println("Hello, I'm " + n +"my age is " + a);
     }
     public Human(int age, int height, int weight, String nationality, String name){
